@@ -1,4 +1,9 @@
-#gpJumbo {
-  background: #64b5f6;
+/* header styles */
+
+#gpJumbo{
+  background: $blue;
   color: $white;
+}
+.card-header{
+  background-color: $red;
 }

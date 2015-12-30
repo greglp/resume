@@ -1,11 +1,38 @@
 /* base styles */
 body {
-  background: #fff;
+  background: #ffffff;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #212121; }
 
+/* header styles */
 #gpJumbo {
   background: #64b5f6;
-  color: #fff; }
+  color: #ffffff; }
+
+.card-header {
+  background-color: #ef5350; }
+
+.gp-drag {
+  width: 100%;
+  background: #64b5f6;
+  color: #ffffff;
+  text-align: center;
+  padding: .75rem 0;
+  margin: .75rem 0; }
+
+.column.over {
+  border: 2px dashed #000; }
+
+.over {
+  border: 2px dashed #000; }
+
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element; }
 
 /*# sourceMappingURL=theme.css.map */
