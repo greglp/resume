@@ -5,20 +5,20 @@ function game() {
         newDealCounter = 0,
         totalPresidents = newDeal.length,
         idCount,
-        htmlID = "'#'" + idCount + "'";
+        htmlID;
 
-        console.log(idCount);
+        console.log(htmlID);
         console.log(newDeal);
         console.log(newDeal[newDealCounter]);
 
 
     for (i = 0, idCount = 1; i < totalPresidents; i++) {
+        htmlID = '#' + idCount;
+        console.log(htmlID);
         console.log(i);
         console.log(idCount);
         console.log(newDeal[newDealCounter]);
-
         $(htmlID).html(newDeal[newDealCounter]);
-
         idCount++;
         newDealCounter++;
 
@@ -27,5 +27,4 @@ function game() {
 
     }
 }
-console.log(presidents);
 game();
